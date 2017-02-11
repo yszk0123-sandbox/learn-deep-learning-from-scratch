@@ -1,4 +1,5 @@
 __pycache__/
 
 *.gz
-*.pkl
+/examples/chapters/**/*.pkl
+/examples/dataset/*.pkl
