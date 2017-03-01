@@ -2,7 +2,7 @@ import numpy as np
 from examples.common.util import im2col
 
 
-class Convolution:
+class ConvolutionLayer:
     def __init__(self, W, b, stride=1, pad=0):
         self.W = W
         self.b = b
